@@ -1,7 +1,10 @@
 package org.open2jam;
 
+import java.beans.XMLEncoder;
+import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.StringWriter;
@@ -180,15 +183,22 @@ public class GameOptions {
     }
     
     /*
-     * "Hi-Speed"=>0, "xR-Speed"=>1, "W-Speed"=>2
+     * "Hi-Speed"=>0, "xR-Speed"=>1, "W-Speed"=>2, "Regul-Speed"=>3
      */
     public enum SpeedType {
-        HiSpeed, xRSpeed, WSpeed;
+        HiSpeed, xRSpeed, WSpeed, RegulSpeed;
         
         @Override
         public String toString() {
             return super.toString().replace("Speed", "-Speed:");
         }
+    }
+    
+    /**
+     * Judgment type
+     */
+    public enum JudgmentType {
+        BeatJudgment, TimeJudgment;
     }
     
     /*
@@ -206,55 +216,51 @@ public class GameOptions {
     }
     
     // fields
-    double hispeed;
-    SpeedType speed_type;
-    VisibilityMod visibilityModifier;
-    ChannelMod channelModifier;
+    private double speedMultiplier = 1.0;
+    private SpeedType speedType = SpeedType.HiSpeed;
+    private VisibilityMod visibilityModifier = VisibilityMod.None;
+    private ChannelMod channelModifier = ChannelMod.None;
+    private JudgmentType judgmentType = JudgmentType.BeatJudgment;
     
-    float keyVolume, BGMVolume, masterVolume;
+    float keyVolume = 1.0f;
+    float bgmVolume = 1.0f;
+    float masterVolume = 1.0f;
     
-    boolean autoplay;
-    ArrayList<Boolean> autoplay_channels;
-    boolean autosound;
+    private boolean autoplay = false;
+    private ArrayList<Boolean> autoplayChannels = generateDefaultAutoplayChannels();
+    private boolean autosound = false;
 
     // display options
-    boolean fullscreen, bilinear, vsync;
-    int width,height,bpp,freq;
+    private boolean displayFullscreen = false;
+    private boolean displayBilinear = true;
+    private boolean displayVsync = true;
+    private int displayWidth = 0;
+    private int displayHeight = 0;
+    private int displayBitsPerPixel = 0;
+    private int displayFrequency = 0;
     
     // VLC lib path
-    String vlc = "";
-    double displayLag = 0;
-    double audioLatency = 0;
+    private String vlc = "";
+    
+    // display lag and audio latency
+    private double displayLag = 0;
+    private double audioLatency = 0;
     
     //public constructor. give default options
     public GameOptions() {
-        load();
     }
     
-    public void load() {
-        Properties properties = new Properties(DEFAULT_PROPERTIES);
-        try {
-            properties.load(new FileInputStream(OPTIONS_FILE));
-        } catch (IOException ex) {
-            Logger.getLogger(GameOptions.class.getName()).log(Level.SEVERE, null, ex);
+    
+    private ArrayList<Boolean> generateDefaultAutoplayChannels() {
+        ArrayList<Boolean> out = new ArrayList<Boolean>();
+        for(Event.Channel c : Event.Channel.values())
+        {
+            if(c.toString().startsWith("NOTE_"))
+                out.add(c.isAutoplay());
         }
-        for (Property property : Property.values()) {
-            property.load(properties, this);
-        }
+        return out;
     }
     
-    public void save() {
-        Properties properties = new Properties();
-        for (Property property : Property.values()) {
-            property.save(properties, this);
-        }
-        try {
-            properties.store(new FileOutputStream(OPTIONS_FILE), "save the settings");
-        } catch (IOException ex) {
-            Logger.getLogger(GameOptions.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-
     /**
      * Gets the visibility modifier
      * @return the modifier
@@ -275,16 +281,16 @@ public class GameOptions {
      * Gets hi-speed value.
      * @return hi-speed
      */
-    public double getHiSpeed() {
-        return hispeed;
+    public double getSpeedMultiplier() {
+        return speedMultiplier;
     }
 
     /**
      * Sets hi-speed value.
      * @param new hi-speed value
      */
-    public void setHispeed(double hispeed) {
-        this.hispeed = hispeed;
+    public void setSpeedMultiplier(double hispeed) {
+        this.speedMultiplier = hispeed;
     }
 
     /**
@@ -292,7 +298,7 @@ public class GameOptions {
      * @return 
      */
     public SpeedType getSpeedType() {
-        return speed_type;
+        return speedType;
     }
 
     /**
@@ -300,7 +306,7 @@ public class GameOptions {
      * @param mod 
      */
     public void setSpeedType(SpeedType mod) {
-        this.speed_type = mod;
+        this.speedType = mod;
     }
 
     /**
@@ -340,7 +346,7 @@ public class GameOptions {
      * @return BGM volume
      */
     public float getBGMVolume() {
-        return BGMVolume;
+        return bgmVolume;
     }
 
     /**
@@ -348,7 +354,7 @@ public class GameOptions {
      * @param new BGM volume
      */
     public void setBGMVolume(float vol) {
-        BGMVolume = (float) clamp(vol, 0, 1);
+        bgmVolume = (float) clamp(vol, 0, 1);
     }
 
     /**
@@ -371,7 +377,7 @@ public class GameOptions {
      * Gets autoplay option value.
      * @return true if autoplay option is enabled, false otherwise
      */
-    public boolean getAutoplay() {
+    public boolean isAutoplay() {
         return autoplay;
     }
 
@@ -387,7 +393,7 @@ public class GameOptions {
      * Gets autosound option value.
      * @return true if autosound option is enabled, false otherwise
      */
-    public boolean getAutosound() {
+    public boolean isAutosound() {
         return autosound;
     }
 
@@ -399,51 +405,77 @@ public class GameOptions {
         this.autosound = autosound;
     }
     
-    public List<Boolean> getAutoplayChannels() {
-	return autoplay_channels;
-    }
-    
-    public void setAutoplayChannels(List<Boolean> list) {
-	this.autoplay_channels = (ArrayList<Boolean>) list;
-    }
-
-    public void setFullScreen(boolean fs) {
-        this.fullscreen = fs;
-    }
-
-    public boolean getFullScreen() {
-        return this.fullscreen;
-    }
-
-    public void setBilinear(boolean bi) {
-        this.bilinear = bi;
-    }
-
-    public boolean getBilinear() {
-        return bilinear;
-    }
-
-    public void setVsync(boolean vsync) {
-        this.vsync = vsync;
-    }
-
-    public boolean getVsync() {
-        return vsync;
-    }
-    
-    public void setVLC(String path) {
-	this.vlc = path;
-    }
-    
-    public String getVLC() {
-	return vlc;
-    }
-
     public void setDisplay(DisplayMode dm) {
-        this.width = dm.getWidth();
-        this.height = dm.getHeight();
-        this.bpp = dm.getBitsPerPixel();
-        this.freq = dm.getFrequency();
+        this.displayWidth = dm.getWidth();
+        this.displayHeight = dm.getHeight();
+        this.displayBitsPerPixel = dm.getBitsPerPixel();
+        this.displayFrequency = dm.getFrequency();
+    }
+    
+    public boolean isDisplaySaved(DisplayMode dm)
+    {
+        return dm.getWidth() == displayWidth && dm.getHeight() == displayHeight &&
+               dm.getBitsPerPixel() == displayBitsPerPixel && dm.getFrequency() == displayFrequency;
+    }
+    
+    private double clamp(double value, double min, double max) {
+        return Math.min(Math.max(value, min), max);
+    }
+
+    public double getAudioLatency() {
+        return audioLatency;
+    }
+
+    public void setAudioLatency(double audioLatency) {
+        this.audioLatency = audioLatency;
+    }
+
+    public ArrayList<Boolean> getAutoplayChannels() {
+        return autoplayChannels;
+    }
+
+    public void setAutoplayChannels(List<Boolean> autoplayChannels) {
+        this.autoplayChannels = new ArrayList<Boolean>(autoplayChannels);
+    }
+
+    public boolean isDisplayBilinear() {
+        return displayBilinear;
+    }
+
+    public void setDisplayBilinear(boolean displayBilinear) {
+        this.displayBilinear = displayBilinear;
+    }
+
+    public int getDisplayBitsPerPixel() {
+        return displayBitsPerPixel;
+    }
+
+    public void setDisplayBitsPerPixel(int displayBitsPerPixel) {
+        this.displayBitsPerPixel = displayBitsPerPixel;
+    }
+
+    public int getDisplayFrequency() {
+        return displayFrequency;
+    }
+
+    public void setDisplayFrequency(int displayFrequency) {
+        this.displayFrequency = displayFrequency;
+    }
+
+    public boolean isDisplayFullscreen() {
+        return displayFullscreen;
+    }
+
+    public void setDisplayFullscreen(boolean displayFullscreen) {
+        this.displayFullscreen = displayFullscreen;
+    }
+
+    public int getDisplayHeight() {
+        return displayHeight;
+    }
+
+    public void setDisplayHeight(int displayHeight) {
+        this.displayHeight = displayHeight;
     }
 
     public double getDisplayLag() {
@@ -454,21 +486,36 @@ public class GameOptions {
         this.displayLag = displayLag;
     }
 
-    public double getAudioLatency() {
-        return audioLatency;
+    public boolean isDisplayVsync() {
+        return displayVsync;
     }
 
-    public void setAudioLatency(double audioLatency) {
-        this.audioLatency = audioLatency;
+    public void setDisplayVsync(boolean displayVsync) {
+        this.displayVsync = displayVsync;
+    }
+
+    public int getDisplayWidth() {
+        return displayWidth;
+    }
+
+    public void setDisplayWidth(int displayWidth) {
+        this.displayWidth = displayWidth;
+    }
+
+    public String getVLCLibraryPath() {
+        return vlc;
+    }
+
+    public void setVLCLibraryPath(String vlc) {
+        this.vlc = vlc;
+    }
+
+    public JudgmentType getJudgmentType() {
+        return judgmentType;
+    }
+
+    public void setJudgmentType(JudgmentType judgmentType) {
+        this.judgmentType = judgmentType;
     }
     
-    public boolean isDisplaySaved(DisplayMode dm)
-    {
-        return dm.getWidth() == width && dm.getHeight() == height &&
-               dm.getBitsPerPixel() == bpp && dm.getFrequency() == freq;
-    }
-    
-    private double clamp(double value, double min, double max) {
-        return Math.min(Math.max(value, min), max);
-    }
 }
