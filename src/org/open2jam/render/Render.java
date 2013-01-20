@@ -8,10 +8,7 @@ import com.github.dtinth.partytime.Client;
 import org.open2jam.sound.FmodExSoundSystem;
 import java.awt.Font;
 import java.awt.image.BufferedImage;
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Map.Entry;
@@ -76,9 +73,6 @@ public class Render implements GameWindowCallback
 
     /** skin info and entities */
     Skin skin;
-
-    /** store the sound sources being played */
-    private static final int MAX_SOURCES = 64;
 
     /** the mapping of note channels to KeyEvent keys  */
     final EnumMap<Event.Channel, Integer> keyboard_map;
@@ -329,7 +323,7 @@ public class Render implements GameWindowCallback
             public boolean isVisible() { return true; }
         });
         
-        window.setDisplay(dm,opt.isDisplayVsync(),opt.isDisplayFullscreen(),opt.isDisplayBilinear());
+        window.setDisplay(dm,opt.isDisplayVsync(),opt.isDisplayFullscreen());
     }
 
     public void setAutosyncCallback(AutosyncCallback autosyncDelegate) {
@@ -829,10 +823,15 @@ public class Render implements GameWindowCallback
                 if (!gameStarted && localMatching == null) gameStarted = true;  
                 
                 keyboard_key_pressed.put(c, true);
-
-                Entity ee = skin.getEntityMap().get("PRESSED_"+c).copy();
-                entities_matrix.add(ee);
-                Entity to_kill = key_pressed_entity.put(c, ee);
+                Entity baseEntity = skin.getEntityMap().get("PRESSED_"+c);
+                Entity to_kill = null;
+                
+                if (baseEntity != null) {
+                    Entity ee = baseEntity.copy();
+                    entities_matrix.add(ee);
+                    to_kill = key_pressed_entity.put(c, ee);
+                }
+                
                 if(to_kill != null)to_kill.setDead(true);
 
                 NoteEntity e = nextNoteKey(c);
@@ -862,7 +861,9 @@ public class Render implements GameWindowCallback
             }else if(!keyDown && keyWasDown) { // key released now
 
                 keyboard_key_pressed.put(c, false);
-                key_pressed_entity.get(c).setDead(true);
+                Entity to_kill = key_pressed_entity.get(c);
+                
+                if(to_kill != null)to_kill.setDead(true);
 
                 Entity lf = longflare.remove(c);
                 if(lf !=null)lf.setDead(true);
@@ -1009,7 +1010,7 @@ public class Render implements GameWindowCallback
             case COOL:
                 jambar_entity.addNumber(2);
                 consecutive_cools++;
-                lifebar_entity.addNumber(rank >= 2 ? 24 : 48);
+                lifebar_entity.addNumber(rank >= 2 ? 48 : 96);
                 score_value = 200 + (jamcombo_entity.getNumber()*10);
                 break;
 
@@ -1032,7 +1033,7 @@ public class Render implements GameWindowCallback
                 {
                     jambar_entity.setNumber(0);
                     jamcombo_entity.resetNumber();
-                    lifebar_entity.subtractNumber(120);
+                    lifebar_entity.subtractNumber(240);
 
                     score_value = 4;
                 }
@@ -1044,7 +1045,7 @@ public class Render implements GameWindowCallback
                 jamcombo_entity.resetNumber();
                 consecutive_cools = 0;
 
-                lifebar_entity.subtractNumber(720);
+                lifebar_entity.subtractNumber(1440);
 
                 if(score_entity.getNumber() >= 10)score_value = -10;
                 else score_value = -score_entity.getNumber();
@@ -1412,9 +1413,10 @@ public class Render implements GameWindowCallback
                 e.setLayer(++l);
         }
 
-//        skin.getEntityMap().get("MEASURE_MARK").setLayer(layer);
+        // FIXME this is a hack
         if(value != GameOptions.VisibilityMod.Sudden)skin.getEntityMap().get("JUDGMENT_LINE").setLayer(layer);
-
+        skin.getEntityMap().get("MEASURE_MARK").setLayer(layer);
+        
         entities_matrix.add(visibility_entity);
     }
 
