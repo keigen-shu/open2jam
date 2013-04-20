@@ -1,0 +1,2518 @@
+<!--
+
+NOTE: FOR REFERENCE ONLY. DO NOT USE THIS XML DIRECTLY.
+
+dx and dy are NOT source image offset values!!! They are draw position
+values as defined in the OJS/OJT files that are used by the original
+game client to determine where to draw the sprites! You will see that
+some of them have negative values. This is because they are added onto
+another set of values in .bnd resource files, which are just plain binary
+data files with a header and data consisting of arrays of 4-byte integers,
+every 4 of them mapped to a rect (Cartesian values arranged X-Left, Y-Top,
+X-Right, Y-Bottom) which is assigned to an entity addressed on a file
+called ControlList_Playing.txt.
+
+--!>
+
+<sprite id="LongNote_Effect.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="LongNote_Effect.ojt" />
+</sprite>
+
+<sprite id="Note_Bad10.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad10.ojt" />
+</sprite>
+
+<sprite id="Note_Bad11.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad11.ojt" />
+</sprite>
+
+<sprite id="Note_Bad12.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad12.ojt" />
+</sprite>
+
+<sprite id="Note_Bad13.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad13.ojt" />
+</sprite>
+
+<sprite id="Note_Bad14.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad14.ojt" />
+</sprite>
+
+<sprite id="Note_Bad15.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad15.ojt" />
+</sprite>
+
+<sprite id="Note_Bad16.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad16.ojt" />
+</sprite>
+
+<sprite id="Note_Bad17.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad17.ojt" />
+</sprite>
+
+<sprite id="Note_Bad18.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad18.ojt" />
+</sprite>
+
+<sprite id="Note_Bad19.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad19.ojt" />
+</sprite>
+
+<sprite id="Note_Bad1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad1.ojt" />
+</sprite>
+
+<sprite id="Note_Bad2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad2.ojt" />
+</sprite>
+
+<sprite id="Note_Bad3.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad3.ojt" />
+</sprite>
+
+<sprite id="Note_Bad4.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad4.ojt" />
+</sprite>
+
+<sprite id="Note_Bad5.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad5.ojt" />
+</sprite>
+
+<sprite id="Note_Bad6.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad6.ojt" />
+</sprite>
+
+<sprite id="Note_Bad7.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad7.ojt" />
+</sprite>
+
+<sprite id="Note_Bad8.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad8.ojt" />
+</sprite>
+
+<sprite id="Note_Bad9.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Bad9.ojt" />
+</sprite>
+
+<sprite id="Note_Click10_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click10_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click10_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click10_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click11_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click11_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click11_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click1_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click12_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click12_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click12_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click12_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click12_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click12_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click12_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click12_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click12_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click1_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click1_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click13_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click13_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click13_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click14_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click14_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click14_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click15_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click15_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click15_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click16_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click16_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click16_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click17_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click17_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click17_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click18_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click18_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click18_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click19_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click19_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click19_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click2_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click2_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click2_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click3_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click3_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click3_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click4_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click4_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click4_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click5_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click5_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click5_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click6_1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click6_2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Note_Click6_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click7_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click7_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click7_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click8_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click8_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click8_2.ojt" />
+</sprite>
+
+<sprite id="Note_Click9_1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_1.ojt" />
+</sprite>
+
+<sprite id="Note_Click9_2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Click9_2.ojt" />
+</sprite>
+
+<sprite id="Note_Combo10.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo10.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo10.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo10.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo10.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo10.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo10.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo10.ojt" />
+</sprite>
+
+<sprite id="Note_Combo11.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo11.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo11.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo11.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo11.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo11.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo11.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo11.ojt" />
+</sprite>
+
+<sprite id="Note_Combo12.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo12.ojt" />
+</sprite>
+
+<sprite id="Note_Combo13.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo13.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo13.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo13.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo13.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo13.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo13.ojt" />
+</sprite>
+
+<sprite id="Note_Combo14.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo14.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo14.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo14.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo14.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo14.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo14.ojt" />
+</sprite>
+
+<sprite id="Note_Combo15.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo15.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo15.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo15.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo15.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo15.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo15.ojt" />
+</sprite>
+
+<sprite id="Note_Combo16.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo16.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo16.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo16.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo16.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo16.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo16.ojt" />
+</sprite>
+
+<sprite id="Note_Combo17.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo17.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo17.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo17.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo17.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo17.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo17.ojt" />
+</sprite>
+
+<sprite id="Note_Combo18.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo18.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo18.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo18.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo18.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo18.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo18.ojt" />
+</sprite>
+
+<sprite id="Note_Combo19.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Combo19.ojt" />
+</sprite>
+
+<sprite id="Note_Combo1.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo1.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo1.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo1.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo1.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo1.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo1.ojt" />
+</sprite>
+
+<sprite id="Note_Combo2.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo2.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo2.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo2.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo2.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo2.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo2.ojt" />
+</sprite>
+
+<sprite id="Note_Combo3.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo3.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo3.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo3.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo3.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo3.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo3.ojt" />
+</sprite>
+
+<sprite id="Note_Combo4.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo4.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo4.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo4.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo4.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo4.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo4.ojt" />
+</sprite>
+
+<sprite id="Note_Combo5.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo5.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo5.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo5.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo5.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo5.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo5.ojt" />
+</sprite>
+
+<sprite id="Note_Combo6.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo6.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo6.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo6.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo6.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo6.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo6.ojt" />
+</sprite>
+
+<sprite id="Note_Combo7.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo7.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo7.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo7.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo7.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo7.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo7.ojt" />
+</sprite>
+
+<sprite id="Note_Combo8.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo8.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo8.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo8.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo8.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo8.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo8.ojt" />
+</sprite>
+
+<sprite id="Note_Combo9.ojt">
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo9.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo9.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo9.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo9.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo9.ojt" />
+	<frame dx="0" dy="0" w="64" h="64" file="Note_Combo9.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum10.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum10.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum11.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum11.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum12.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum12.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum13.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum13.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum14.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum14.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum15.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum15.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum16.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum16.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum17.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum17.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum18.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum18.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum19.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum19.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum1.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum2.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum3.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum3.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum4.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum4.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum5.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum5.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum6.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum6.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum7.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum7.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum8.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum8.ojt" />
+</sprite>
+
+<sprite id="Note_ComboNum9.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+	<frame dx="0" dy="0" w="128" h="128" file="Note_ComboNum9.ojt" />
+</sprite>
+
+<sprite id="Note_Cool10.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool10.ojt" />
+</sprite>
+
+<sprite id="Note_Cool11.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool11.ojt" />
+</sprite>
+
+<sprite id="Note_Cool12.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool12.ojt" />
+</sprite>
+
+<sprite id="Note_Cool13.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool13.ojt" />
+</sprite>
+
+<sprite id="Note_Cool14.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool14.ojt" />
+</sprite>
+
+<sprite id="Note_Cool15.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool15.ojt" />
+</sprite>
+
+<sprite id="Note_Cool16.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool16.ojt" />
+</sprite>
+
+<sprite id="Note_Cool17.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool17.ojt" />
+</sprite>
+
+<sprite id="Note_Cool18.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool18.ojt" />
+</sprite>
+
+<sprite id="Note_Cool19.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool19.ojt" />
+</sprite>
+
+<sprite id="Note_Cool1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool1.ojt" />
+</sprite>
+
+<sprite id="Note_Cool2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool2.ojt" />
+</sprite>
+
+<sprite id="Note_Cool3.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool3.ojt" />
+</sprite>
+
+<sprite id="Note_Cool4.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool4.ojt" />
+</sprite>
+
+<sprite id="Note_Cool5.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool5.ojt" />
+</sprite>
+
+<sprite id="Note_Cool6.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool6.ojt" />
+</sprite>
+
+<sprite id="Note_Cool7.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool7.ojt" />
+</sprite>
+
+<sprite id="Note_Cool8.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool8.ojt" />
+</sprite>
+
+<sprite id="Note_Cool9.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Cool9.ojt" />
+</sprite>
+
+<sprite id="Note_Good10.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good10.ojt" />
+</sprite>
+
+<sprite id="Note_Good11.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good11.ojt" />
+</sprite>
+
+<sprite id="Note_Good12.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good12.ojt" />
+</sprite>
+
+<sprite id="Note_Good13.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good13.ojt" />
+</sprite>
+
+<sprite id="Note_Good14.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good14.ojt" />
+</sprite>
+
+<sprite id="Note_Good15.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good15.ojt" />
+</sprite>
+
+<sprite id="Note_Good16.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good16.ojt" />
+</sprite>
+
+<sprite id="Note_Good17.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good17.ojt" />
+</sprite>
+
+<sprite id="Note_Good18.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good18.ojt" />
+</sprite>
+
+<sprite id="Note_Good19.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good19.ojt" />
+</sprite>
+
+<sprite id="Note_Good1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good1.ojt" />
+</sprite>
+
+<sprite id="Note_Good2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good2.ojt" />
+</sprite>
+
+<sprite id="Note_Good3.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good3.ojt" />
+</sprite>
+
+<sprite id="Note_Good4.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good4.ojt" />
+</sprite>
+
+<sprite id="Note_Good5.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good5.ojt" />
+</sprite>
+
+<sprite id="Note_Good6.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good6.ojt" />
+</sprite>
+
+<sprite id="Note_Good7.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good7.ojt" />
+</sprite>
+
+<sprite id="Note_Good8.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good8.ojt" />
+</sprite>
+
+<sprite id="Note_Good9.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Good9.ojt" />
+</sprite>
+
+<sprite id="Note_Miss10.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss10.ojt" />
+</sprite>
+
+<sprite id="Note_Miss11.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss11.ojt" />
+</sprite>
+
+<sprite id="Note_Miss12.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss12.ojt" />
+</sprite>
+
+<sprite id="Note_Miss13.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss13.ojt" />
+</sprite>
+
+<sprite id="Note_Miss14.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss14.ojt" />
+</sprite>
+
+<sprite id="Note_Miss15.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss15.ojt" />
+</sprite>
+
+<sprite id="Note_Miss16.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss16.ojt" />
+</sprite>
+
+<sprite id="Note_Miss17.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss17.ojt" />
+</sprite>
+
+<sprite id="Note_Miss18.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss18.ojt" />
+</sprite>
+
+<sprite id="Note_Miss19.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss19.ojt" />
+</sprite>
+
+<sprite id="Note_Miss1.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss1.ojt" />
+</sprite>
+
+<sprite id="Note_Miss2.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss2.ojt" />
+</sprite>
+
+<sprite id="Note_Miss3.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss3.ojt" />
+</sprite>
+
+<sprite id="Note_Miss4.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss4.ojt" />
+</sprite>
+
+<sprite id="Note_Miss5.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss5.ojt" />
+</sprite>
+
+<sprite id="Note_Miss6.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss6.ojt" />
+</sprite>
+
+<sprite id="Note_Miss7.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss7.ojt" />
+</sprite>
+
+<sprite id="Note_Miss8.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss8.ojt" />
+</sprite>
+
+<sprite id="Note_Miss9.ojt">
+	<frame dx="0" dy="0" w="128" h="128" file="Note_Miss9.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam10.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam10.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam11.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam11.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam12.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam12.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam13.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam13.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam14.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam14.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam15.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam15.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam16.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam16.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam17.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam17.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam18.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam18.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam19.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam19.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam1.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam1.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam2.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam2.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam3.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam3.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam4.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam4.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam5.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam5.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam6.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam6.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam7.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam7.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam8.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam8.ojt" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam9.ojt">
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+	<frame dx="0" dy="0" w="256" h="256" file="Playing_Effect_Jam9.ojt" />
+</sprite>
+
+<sprite id="AlbumLoading_Panel.ojs">
+	<frame dx="410" dy="210" w="197" h="179" file="AlbumLoading_Panel.ojs" />
+</sprite>
+
+<sprite id="AlbumLoading_Sign.ojs">
+	<frame dx="55" dy="152" w="98" h="14" file="AlbumLoading_Sign.ojs" />
+	<frame dx="55" dy="152" w="98" h="14" file="AlbumLoading_Sign.ojs" />
+	<frame dx="55" dy="152" w="98" h="14" file="AlbumLoading_Sign.ojs" />
+	<frame dx="55" dy="152" w="98" h="14" file="AlbumLoading_Sign.ojs" />
+</sprite>
+
+<sprite id="AlbumMusic_Num.ojs">
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="11" dy="84" w="87" h="42" file="AlbumMusic_Num.ojs" />
+	<frame dx="36" dy="84" w="62" h="42" file="AlbumMusic_Num.ojs" />
+</sprite>
+
+<sprite id="AlbumMusic_Waiting.ojs">
+	<frame dx="410" dy="210" w="197" h="99" file="AlbumMusic_Waiting.ojs" />
+</sprite>
+
+<sprite id="Avatar_Info_EmblemDecision.ojs">
+	<frame dx="0" dy="0" w="16" h="16" file="Avatar_Info_EmblemDecision.ojs" />
+</sprite>
+
+<sprite id="Avatar_Info_EmblemEffect.ojs">
+	<frame dx="0" dy="0" w="16" h="16" file="Avatar_Info_EmblemEffect.ojs" />
+</sprite>
+
+<sprite id="Avatar_Info_EmblemLife.ojs">
+	<frame dx="0" dy="0" w="16" h="16" file="Avatar_Info_EmblemLife.ojs" />
+</sprite>
+
+<sprite id="Avatar_Info_LifeGauge.ojs">
+	<frame dx="0" dy="0" w="46" h="8" file="Avatar_Info_LifeGauge.ojs" />
+	<frame dx="0" dy="0" w="46" h="8" file="Avatar_Info_LifeGauge.ojs" />
+</sprite>
+
+<sprite id="BG_Ani01.ojs">
+	<frame dx="326" dy="33" w="361" h="237" file="BG_Ani01.ojs" />
+	<frame dx="326" dy="33" w="361" h="237" file="BG_Ani01.ojs" />
+	<frame dx="326" dy="33" w="361" h="237" file="BG_Ani01.ojs" />
+	<frame dx="326" dy="33" w="361" h="237" file="BG_Ani01.ojs" />
+	<frame dx="326" dy="33" w="361" h="237" file="BG_Ani01.ojs" />
+</sprite>
+
+<sprite id="Buffer.ojs">
+	<frame dx="0" dy="0" w="28" h="28" file="Buffer.ojs" />
+	<frame dx="0" dy="0" w="28" h="28" file="Buffer.ojs" />
+</sprite>
+
+<sprite id="Couplecircle_Note_Image.ojs">
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="Couplecircle_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="188" h="1" file="Couplecircle_Note_Image.ojs" />
+</sprite>
+
+<sprite id="CoupleKeyDownImage.ojs">
+	<frame dx="4" dy="487" w="69" h="46" file="CoupleKeyDownImage.ojs" />
+	<frame dx="54" dy="487" w="36" h="42" file="CoupleKeyDownImage.ojs" />
+	<frame dx="73" dy="487" w="68" h="46" file="CoupleKeyDownImage.ojs" />
+	<frame dx="141" dy="487" w="53" h="46" file="CoupleKeyDownImage.ojs" />
+	<frame dx="606" dy="487" w="69" h="46" file="CoupleKeyDownImage.ojs" />
+	<frame dx="656" dy="487" w="36" h="42" file="CoupleKeyDownImage.ojs" />
+	<frame dx="675" dy="487" w="68" h="46" file="CoupleKeyDownImage.ojs" />
+</sprite>
+
+<sprite id="CoupleKey_Effect.ojs">
+	<frame dx="5" dy="0" w="49" h="480" file="CoupleKey_Effect.ojs" />
+	<frame dx="55" dy="0" w="35" h="480" file="CoupleKey_Effect.ojs" />
+	<frame dx="91" dy="0" w="49" h="480" file="CoupleKey_Effect.ojs" />
+	<frame dx="141" dy="0" w="52" h="480" file="CoupleKey_Effect.ojs" />
+	<frame dx="607" dy="0" w="49" h="480" file="CoupleKey_Effect.ojs" />
+	<frame dx="657" dy="0" w="35" h="480" file="CoupleKey_Effect.ojs" />
+	<frame dx="693" dy="0" w="49" h="480" file="CoupleKey_Effect.ojs" />
+</sprite>
+
+<sprite id="CoupleMain_level.ojs">
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+	<frame dx="493" dy="545" w="37" h="12" file="CoupleMain_level.ojs" />
+</sprite>
+
+<sprite id="CoupleNote_BG.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="CoupleNote_BG.ojs" />
+</sprite>
+
+<sprite id="CouplePlaying_BG.ojs">
+	<frame dx="204" dy="0" w="392" h="552" file="CouplePlaying_BG.ojs" />
+</sprite>
+
+<sprite id="CouplePlaying_Exit.ojs">
+	<frame dx="534" dy="526" w="45" h="22" file="CouplePlaying_Exit.ojs" />
+	<frame dx="534" dy="526" w="45" h="22" file="CouplePlaying_Exit.ojs" />
+</sprite>
+
+<sprite id="CouplePlaying_Menu.ojs">
+	<frame dx="204" dy="552" w="392" h="48" file="CouplePlaying_Menu.ojs" />
+</sprite>
+
+<sprite id="CoupleSquare_Note_Image.ojs">
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="7" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="52" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="35" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="49" h="480" file="CoupleSquare_Note_Image.ojs" />
+	<frame dx="0" dy="0" w="188" h="1" file="CoupleSquare_Note_Image.ojs" />
+</sprite>
+
+<sprite id="CoupleWavegage.ojs">
+	<frame dx="261" dy="558" w="111" h="6" file="CoupleWavegage.ojs" />
+</sprite>
+
+<sprite id="equalizer_ani.ojs">
+	<frame dx="0" dy="-2" w="5" h="2" file="equalizer_ani.ojs" />
+	<frame dx="0" dy="-5" w="5" h="5" file="equalizer_ani.ojs" />
+	<frame dx="0" dy="-8" w="5" h="8" file="equalizer_ani.ojs" />
+	<frame dx="0" dy="-11" w="5" h="11" file="equalizer_ani.ojs" />
+	<frame dx="0" dy="-14" w="5" h="14" file="equalizer_ani.ojs" />
+	<frame dx="0" dy="-17" w="5" h="17" file="equalizer_ani.ojs" />
+	<frame dx="0" dy="-20" w="5" h="20" file="equalizer_ani.ojs" />
+	<frame dx="0" dy="-23" w="5" h="23" file="equalizer_ani.ojs" />
+</sprite>
+
+<sprite id="Guide_Ani.ojs">
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+	<frame dx="645" dy="350" w="138" h="183" file="Guide_Ani.ojs" />
+</sprite>
+
+<sprite id="Guide_Key.ojs">
+	<frame dx="386" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="386" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="413" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="413" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="440" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="440" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="448" dy="184" w="104" h="27" file="Guide_Key.ojs" />
+	<frame dx="448" dy="184" w="104" h="27" file="Guide_Key.ojs" />
+	<frame dx="521" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="521" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="548" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="548" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="575" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+	<frame dx="575" dy="130" w="27" h="27" file="Guide_Key.ojs" />
+</sprite>
+
+<sprite id="Guide_Text.ojs">
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+	<frame dx="374" dy="297" w="322" h="156" file="Guide_Text.ojs" />
+</sprite>
+
+<sprite id="Jam_gauge_bar.ojs">
+	<frame dx="4" dy="536" w="191" h="12" file="Jam_gauge_bar.ojs" />
+</sprite>
+
+<sprite id="Jam_gauge_text.ojs">
+	<frame dx="85" dy="539" w="29" h="7" file="Jam_gauge_text.ojs" />
+</sprite>
+
+<sprite id="KeydownImage.ojs">
+	<frame dx="3" dy="487" w="41" h="46" file="KeydownImage.ojs" />
+	<frame dx="33" dy="487" w="22" h="42" file="KeydownImage.ojs" />
+	<frame dx="44" dy="487" w="40" h="46" file="KeydownImage.ojs" />
+	<frame dx="83" dy="487" w="32" h="46" file="KeydownImage.ojs" />
+	<frame dx="114" dy="487" w="40" h="46" file="KeydownImage.ojs" />
+	<frame dx="143" dy="487" w="22" h="42" file="KeydownImage.ojs" />
+	<frame dx="154" dy="487" w="41" h="46" file="KeydownImage.ojs" />
+</sprite>
+
+<sprite id="Keyeffect1.ojs">
+	<frame dx="5" dy="0" w="28" h="480" file="Keyeffect1.ojs" />
+	<frame dx="34" dy="0" w="20" h="480" file="Keyeffect1.ojs" />
+	<frame dx="55" dy="0" w="28" h="480" file="Keyeffect1.ojs" />
+	<frame dx="84" dy="0" w="30" h="480" file="Keyeffect1.ojs" />
+	<frame dx="115" dy="0" w="28" h="480" file="Keyeffect1.ojs" />
+	<frame dx="144" dy="0" w="20" h="480" file="Keyeffect1.ojs" />
+	<frame dx="165" dy="0" w="28" h="480" file="Keyeffect1.ojs" />
+</sprite>
+
+<sprite id="Keyeffect2.ojs">
+	<frame dx="5" dy="0" w="28" h="480" file="Keyeffect2.ojs" />
+	<frame dx="34" dy="0" w="20" h="480" file="Keyeffect2.ojs" />
+	<frame dx="55" dy="0" w="28" h="480" file="Keyeffect2.ojs" />
+	<frame dx="84" dy="0" w="30" h="480" file="Keyeffect2.ojs" />
+	<frame dx="115" dy="0" w="28" h="480" file="Keyeffect2.ojs" />
+	<frame dx="144" dy="0" w="20" h="480" file="Keyeffect2.ojs" />
+	<frame dx="165" dy="0" w="28" h="480" file="Keyeffect2.ojs" />
+</sprite>
+
+<sprite id="Keyeffect3.ojs">
+	<frame dx="5" dy="0" w="28" h="480" file="Keyeffect3.ojs" />
+	<frame dx="34" dy="0" w="20" h="480" file="Keyeffect3.ojs" />
+	<frame dx="55" dy="0" w="28" h="480" file="Keyeffect3.ojs" />
+	<frame dx="84" dy="0" w="30" h="480" file="Keyeffect3.ojs" />
+	<frame dx="115" dy="0" w="28" h="480" file="Keyeffect3.ojs" />
+	<frame dx="144" dy="0" w="20" h="480" file="Keyeffect3.ojs" />
+	<frame dx="165" dy="0" w="28" h="480" file="Keyeffect3.ojs" />
+</sprite>
+
+<sprite id="Keyeffect4.ojs">
+	<frame dx="5" dy="0" w="28" h="480" file="Keyeffect4.ojs" />
+	<frame dx="34" dy="0" w="20" h="480" file="Keyeffect4.ojs" />
+	<frame dx="55" dy="0" w="28" h="480" file="Keyeffect4.ojs" />
+	<frame dx="84" dy="0" w="30" h="480" file="Keyeffect4.ojs" />
+	<frame dx="115" dy="0" w="28" h="480" file="Keyeffect4.ojs" />
+	<frame dx="144" dy="0" w="20" h="480" file="Keyeffect4.ojs" />
+	<frame dx="165" dy="0" w="28" h="480" file="Keyeffect4.ojs" />
+</sprite>
+
+<sprite id="Keyeffect5.ojs">
+	<frame dx="5" dy="0" w="28" h="480" file="Keyeffect5.ojs" />
+	<frame dx="34" dy="0" w="20" h="480" file="Keyeffect5.ojs" />
+	<frame dx="55" dy="0" w="28" h="480" file="Keyeffect5.ojs" />
+	<frame dx="84" dy="0" w="30" h="480" file="Keyeffect5.ojs" />
+	<frame dx="115" dy="0" w="28" h="480" file="Keyeffect5.ojs" />
+	<frame dx="144" dy="0" w="20" h="480" file="Keyeffect5.ojs" />
+	<frame dx="165" dy="0" w="28" h="480" file="Keyeffect5.ojs" />
+</sprite>
+
+<sprite id="Keyeffect6.ojs">
+	<frame dx="5" dy="0" w="28" h="480" file="Keyeffect6.ojs" />
+	<frame dx="34" dy="0" w="20" h="480" file="Keyeffect6.ojs" />
+	<frame dx="55" dy="0" w="28" h="480" file="Keyeffect6.ojs" />
+	<frame dx="84" dy="0" w="30" h="480" file="Keyeffect6.ojs" />
+	<frame dx="115" dy="0" w="28" h="480" file="Keyeffect6.ojs" />
+	<frame dx="144" dy="0" w="20" h="480" file="Keyeffect6.ojs" />
+	<frame dx="165" dy="0" w="28" h="480" file="Keyeffect6.ojs" />
+</sprite>
+
+<sprite id="Keyeffect.ojs">
+	<frame dx="5" dy="0" w="28" h="480" file="Keyeffect.ojs" />
+	<frame dx="33" dy="0" w="22" h="480" file="Keyeffect.ojs" />
+	<frame dx="55" dy="0" w="28" h="480" file="Keyeffect.ojs" />
+	<frame dx="83" dy="0" w="32" h="480" file="Keyeffect.ojs" />
+	<frame dx="115" dy="0" w="28" h="480" file="Keyeffect.ojs" />
+	<frame dx="143" dy="0" w="22" h="480" file="Keyeffect.ojs" />
+	<frame dx="165" dy="0" w="28" h="480" file="Keyeffect.ojs" />
+</sprite>
+
+<sprite id="Life_gauge_back.ojs">
+	<frame dx="202" dy="246" w="13" h="303" file="Life_gauge_back.ojs" />
+</sprite>
+
+<sprite id="Life_gauge_bar.ojs">
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+	<frame dx="203" dy="247" w="11" h="301" file="Life_gauge_bar.ojs" />
+</sprite>
+
+<sprite id="Loading_Sign.ojs">
+	<frame dx="0" dy="0" w="134" h="37" file="Loading_Sign.ojs" />
+	<frame dx="0" dy="0" w="134" h="37" file="Loading_Sign.ojs" />
+	<frame dx="0" dy="0" w="134" h="37" file="Loading_Sign.ojs" />
+</sprite>
+
+<sprite id="main_level.ojs">
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+	<frame dx="360" dy="552" w="52" h="15" file="main_level.ojs" />
+</sprite>
+
+<sprite id="music_gauge_bar.ojs">
+	<frame dx="345" dy="576" w="302" h="5" file="music_gauge_bar.ojs" />
+</sprite>
+
+<sprite id="MusicLoading10.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading10.ojs" />
+</sprite>
+
+<sprite id="MusicLoading1.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading1.ojs" />
+</sprite>
+
+<sprite id="MusicLoading2.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading2.ojs" />
+</sprite>
+
+<sprite id="MusicLoading3.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading3.ojs" />
+</sprite>
+
+<sprite id="MusicLoading4.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading4.ojs" />
+</sprite>
+
+<sprite id="MusicLoading5.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading5.ojs" />
+</sprite>
+
+<sprite id="MusicLoading6.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading6.ojs" />
+</sprite>
+
+<sprite id="MusicLoading7.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading7.ojs" />
+</sprite>
+
+<sprite id="MusicLoading8.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading8.ojs" />
+</sprite>
+
+<sprite id="MusicLoading9.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading9.ojs" />
+</sprite>
+
+<sprite id="MusicLoading.ojs">
+	<frame dx="0" dy="0" w="800" h="600" file="MusicLoading.ojs" />
+</sprite>
+
+<sprite id="Note_Bad.ojs">
+	<frame dx="-46" dy="-14" w="94" h="31" file="Note_Bad.ojs" />
+	<frame dx="-55" dy="-20" w="117" h="42" file="Note_Bad.ojs" />
+	<frame dx="-52" dy="-19" w="113" h="39" file="Note_Bad.ojs" />
+	<frame dx="-49" dy="-16" w="103" h="36" file="Note_Bad.ojs" />
+	<frame dx="-33" dy="-10" w="69" h="23" file="Note_Bad.ojs" />
+	<frame dx="-12" dy="-1" w="25" h="7" file="Note_Bad.ojs" />
+</sprite>
+
+<sprite id="Note_BG1.ojs">
+	<frame dx="0" dy="0" w="204" h="600" file="Note_BG1.ojs" />
+</sprite>
+
+<sprite id="Note_BG2.ojs">
+	<frame dx="0" dy="0" w="204" h="600" file="Note_BG2.ojs" />
+</sprite>
+
+<sprite id="Note_BG3.ojs">
+	<frame dx="0" dy="0" w="204" h="600" file="Note_BG3.ojs" />
+</sprite>
+
+<sprite id="Note_BG4.ojs">
+	<frame dx="0" dy="0" w="204" h="600" file="Note_BG4.ojs" />
+</sprite>
+
+<sprite id="Note_BG5.ojs">
+	<frame dx="0" dy="0" w="204" h="600" file="Note_BG5.ojs" />
+</sprite>
+
+<sprite id="Note_BG6.ojs">
+	<frame dx="0" dy="0" w="204" h="600" file="Note_BG6.ojs" />
+</sprite>
+
+<sprite id="Note_BG.ojs">
+	<frame dx="0" dy="0" w="204" h="600" file="Note_BG.ojs" />
+</sprite>
+
+<sprite id="Note_ComboNum.ojs">
+	<frame dx="0" dy="0" w="33" h="40" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="23" h="39" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="30" h="39" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="31" h="51" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="33" h="50" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="29" h="50" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="30" h="51" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="28" h="50" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="31" h="51" file="Note_ComboNum.ojs" />
+	<frame dx="0" dy="0" w="31" h="51" file="Note_ComboNum.ojs" />
+</sprite>
+
+<sprite id="Note_combo.ojs">
+	<frame dx="-46" dy="-13" w="93" h="29" file="Note_combo.ojs" />
+	<frame dx="-45" dy="-13" w="92" h="28" file="Note_combo.ojs" />
+	<frame dx="-45" dy="-12" w="92" h="27" file="Note_combo.ojs" />
+	<frame dx="-45" dy="-13" w="92" h="29" file="Note_combo.ojs" />
+	<frame dx="-45" dy="-12" w="92" h="27" file="Note_combo.ojs" />
+	<frame dx="-45" dy="-13" w="92" h="28" file="Note_combo.ojs" />
+</sprite>
+
+<sprite id="Note_Cool.ojs">
+	<frame dx="-73" dy="-32" w="144" h="63" file="Note_Cool.ojs" />
+	<frame dx="-78" dy="-37" w="154" h="72" file="Note_Cool.ojs" />
+	<frame dx="-79" dy="-39" w="156" h="74" file="Note_Cool.ojs" />
+	<frame dx="-60" dy="-29" w="120" h="54" file="Note_Cool.ojs" />
+	<frame dx="-47" dy="-21" w="94" h="39" file="Note_Cool.ojs" />
+	<frame dx="-27" dy="-11" w="49" h="20" file="Note_Cool.ojs" />
+</sprite>
+
+<sprite id="Note_Good.ojs">
+	<frame dx="-58" dy="-34" w="125" h="66" file="Note_Good.ojs" />
+	<frame dx="-59" dy="-35" w="128" h="68" file="Note_Good.ojs" />
+	<frame dx="-56" dy="-31" w="120" h="60" file="Note_Good.ojs" />
+	<frame dx="-46" dy="-26" w="101" h="51" file="Note_Good.ojs" />
+	<frame dx="-28" dy="-17" w="69" h="33" file="Note_Good.ojs" />
+	<frame dx="-9" dy="-9" w="39" h="18" file="Note_Good.ojs" />
+</sprite>
+
+<sprite id="Note_Image.ojs">
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="32" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="32" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="32" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="7" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="32" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="32" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="32" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="22" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="28" h="480" file="Note_Image.ojs" />
+	<frame dx="0" dy="0" w="188" h="1" file="Note_Image.ojs" />
+</sprite>
+
+<sprite id="Note_JamNum.ojs">
+	<frame dx="0" dy="0" w="26" h="37" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="9" h="34" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="24" h="33" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="28" h="35" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="32" h="38" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="26" h="34" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="25" h="36" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="35" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="35" file="Note_JamNum.ojs" />
+	<frame dx="0" dy="0" w="24" h="38" file="Note_JamNum.ojs" />
+</sprite>
+
+<sprite id="Note_Jam.ojs">
+	<frame dx="0" dy="0" w="59" h="17" file="Note_Jam.ojs" />
+	<frame dx="0" dy="0" w="59" h="17" file="Note_Jam.ojs" />
+	<frame dx="0" dy="0" w="59" h="17" file="Note_Jam.ojs" />
+	<frame dx="0" dy="0" w="60" h="17" file="Note_Jam.ojs" />
+	<frame dx="0" dy="0" w="60" h="17" file="Note_Jam.ojs" />
+	<frame dx="0" dy="0" w="60" h="17" file="Note_Jam.ojs" />
+	<frame dx="0" dy="0" w="60" h="17" file="Note_Jam.ojs" />
+	<frame dx="0" dy="0" w="60" h="17" file="Note_Jam.ojs" />
+</sprite>
+
+<sprite id="Note_Miss.ojs">
+	<frame dx="-47" dy="-17" w="93" h="32" file="Note_Miss.ojs" />
+	<frame dx="-54" dy="-20" w="110" h="39" file="Note_Miss.ojs" />
+	<frame dx="-54" dy="-20" w="111" h="39" file="Note_Miss.ojs" />
+	<frame dx="-47" dy="-18" w="93" h="33" file="Note_Miss.ojs" />
+	<frame dx="-41" dy="-14" w="76" h="26" file="Note_Miss.ojs" />
+	<frame dx="-20" dy="-7" w="31" h="13" file="Note_Miss.ojs" />
+</sprite>
+
+<sprite id="NotePointNum.ojs">
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-2" dy="-4" w="5" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+	<frame dx="-4" dy="-4" w="9" h="9" file="NotePointNum.ojs" />
+</sprite>
+
+<sprite id="ohmeffect.ojs">
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+	<frame dx="0" dy="0" w="300" h="300" file="ohmeffect.ojs" />
+</sprite>
+
+<sprite id="ohm.ojs">
+	<frame dx="122" dy="125" w="56" h="54" file="ohm.ojs" />
+	<frame dx="120" dy="128" w="60" h="54" file="ohm.ojs" />
+	<frame dx="120" dy="130" w="60" h="55" file="ohm.ojs" />
+	<frame dx="120" dy="133" w="60" h="54" file="ohm.ojs" />
+	<frame dx="120" dy="134" w="60" h="54" file="ohm.ojs" />
+	<frame dx="121" dy="137" w="58" h="52" file="ohm.ojs" />
+	<frame dx="122" dy="140" w="56" h="49" file="ohm.ojs" />
+	<frame dx="119" dy="139" w="61" h="50" file="ohm.ojs" />
+	<frame dx="122" dy="133" w="56" h="55" file="ohm.ojs" />
+	<frame dx="120" dy="131" w="60" h="54" file="ohm.ojs" />
+	<frame dx="122" dy="128" w="56" h="54" file="ohm.ojs" />
+	<frame dx="120" dy="126" w="60" h="54" file="ohm.ojs" />
+</sprite>
+
+<sprite id="PlayIcon.ojs">
+	<frame dx="0" dy="0" w="28" h="14" file="PlayIcon.ojs" />
+	<frame dx="0" dy="0" w="28" h="14" file="PlayIcon.ojs" />
+	<frame dx="0" dy="0" w="28" h="14" file="PlayIcon.ojs" />
+	<frame dx="0" dy="0" w="28" h="14" file="PlayIcon.ojs" />
+	<frame dx="0" dy="0" w="28" h="14" file="PlayIcon.ojs" />
+	<frame dx="0" dy="0" w="28" h="14" file="PlayIcon.ojs" />
+</sprite>
+
+<sprite id="Playing_BG10.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG10.ojs" />
+</sprite>
+
+<sprite id="Playing_BG11.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG11.ojs" />
+</sprite>
+
+<sprite id="Playing_BG12.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG12.ojs" />
+</sprite>
+
+<sprite id="Playing_BG13.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG13.ojs" />
+</sprite>
+
+<sprite id="Playing_BG14.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG14.ojs" />
+</sprite>
+
+<sprite id="Playing_BG15.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG15.ojs" />
+</sprite>
+
+<sprite id="Playing_BG16.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG16.ojs" />
+</sprite>
+
+<sprite id="Playing_BG17.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG17.ojs" />
+</sprite>
+
+<sprite id="Playing_BG18.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG18.ojs" />
+</sprite>
+
+<sprite id="Playing_BG19.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG19.ojs" />
+</sprite>
+
+<sprite id="Playing_BG1.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG1.ojs" />
+</sprite>
+
+<sprite id="Playing_BG2.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG2.ojs" />
+</sprite>
+
+<sprite id="Playing_BG3.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG3.ojs" />
+</sprite>
+
+<sprite id="Playing_BG4.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG4.ojs" />
+</sprite>
+
+<sprite id="Playing_BG5.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG5.ojs" />
+</sprite>
+
+<sprite id="Playing_BG6.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG6.ojs" />
+</sprite>
+
+<sprite id="Playing_BG7.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG7.ojs" />
+</sprite>
+
+<sprite id="Playing_BG8.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG8.ojs" />
+</sprite>
+
+<sprite id="Playing_BG9.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG9.ojs" />
+</sprite>
+
+<sprite id="Playing_BG.ojs">
+	<frame dx="204" dy="0" w="596" h="558" file="Playing_BG.ojs" />
+</sprite>
+
+<sprite id="Playing_Effect_Jam_Num.ojs">
+	<frame dx="-23" dy="-22" w="46" h="43" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-23" w="48" h="45" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-23" w="48" h="45" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-24" w="50" h="47" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-25" w="52" h="49" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-27" dy="-26" w="54" h="51" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-27" dy="-26" w="54" h="51" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-27" dy="-26" w="54" h="51" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-16" dy="-21" w="32" h="41" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-17" dy="-22" w="34" h="43" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-17" dy="-22" w="34" h="43" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-18" dy="-23" w="36" h="45" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-19" dy="-24" w="38" h="47" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-20" dy="-25" w="40" h="49" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-20" dy="-25" w="40" h="49" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-20" dy="-25" w="40" h="49" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-21" dy="-21" w="41" h="41" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-22" w="43" h="43" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-22" w="43" h="43" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-23" w="45" h="45" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-24" w="47" h="47" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-25" w="49" h="49" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-25" w="49" h="49" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-25" w="49" h="49" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-21" dy="-27" w="42" h="54" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-28" w="44" h="56" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-28" w="44" h="56" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="46" h="58" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-30" w="48" h="60" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="50" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="50" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="50" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-27" w="45" h="54" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-28" w="47" h="56" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-28" w="47" h="56" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-29" w="49" h="58" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-30" w="51" h="60" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-27" dy="-31" w="53" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-27" dy="-31" w="53" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-27" dy="-31" w="53" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-21" dy="-27" w="41" h="53" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-28" w="43" h="55" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-28" w="43" h="55" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="45" h="57" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-30" w="47" h="59" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="49" h="61" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="49" h="61" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="49" h="61" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-28" w="43" h="56" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="45" h="58" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="45" h="58" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-30" w="47" h="60" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="49" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="51" h="64" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="51" h="64" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="51" h="64" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-20" dy="-27" w="40" h="53" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-21" dy="-28" w="42" h="55" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-21" dy="-28" w="42" h="55" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-29" w="44" h="57" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-30" w="46" h="59" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-31" w="48" h="61" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-31" w="48" h="61" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-31" w="48" h="61" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-28" w="44" h="56" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="46" h="58" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="46" h="58" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-30" w="48" h="60" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="50" h="62" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="52" h="64" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="52" h="64" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="52" h="64" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-22" dy="-28" w="43" h="55" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="45" h="57" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-23" dy="-29" w="45" h="57" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-24" dy="-30" w="47" h="59" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-25" dy="-31" w="49" h="61" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="51" h="63" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="51" h="63" file="Playing_Effect_Jam_Num.ojs" />
+	<frame dx="-26" dy="-32" w="51" h="63" file="Playing_Effect_Jam_Num.ojs" />
+</sprite>
+
+<sprite id="Playing_Exit.ojs">
+	<frame dx="713" dy="509" w="87" h="66" file="Playing_Exit.ojs" />
+	<frame dx="713" dy="509" w="87" h="66" file="Playing_Exit.ojs" />
+</sprite>
+
+<sprite id="Playing_Menu.ojs">
+	<frame dx="204" dy="558" w="596" h="42" file="Playing_Menu.ojs" />
+</sprite>
+
+<sprite id="Playing_Ohm.ojs">
+	<frame dx="394" dy="542" w="36" h="10" file="Playing_Ohm.ojs" />
+	<frame dx="394" dy="542" w="36" h="10" file="Playing_Ohm.ojs" />
+	<frame dx="394" dy="542" w="36" h="10" file="Playing_Ohm.ojs" />
+	<frame dx="394" dy="542" w="36" h="10" file="Playing_Ohm.ojs" />
+</sprite>
+
+<sprite id="Playing_SkillWindow.ojs">
+	<frame dx="573" dy="505" w="137" h="45" file="Playing_SkillWindow.ojs" />
+</sprite>
+
+<sprite id="PlayTimeNum.ojs">
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="15" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="25" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+	<frame dx="0" dy="0" w="27" h="21" file="PlayTimeNum.ojs" />
+</sprite>
+
+<sprite id="PointNum.ojs">
+	<frame dx="0" dy="0" w="23" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="12" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="23" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="23" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="24" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="24" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="24" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="23" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="24" h="18" file="PointNum.ojs" />
+	<frame dx="0" dy="0" w="24" h="18" file="PointNum.ojs" />
+</sprite>
+
+<sprite id="WaveGage.ojs">
+	<frame dx="225" dy="514" w="226" h="73" file="WaveGage.ojs" />
+</sprite>
+
