@@ -1,0 +1,15 @@
+O2Jam Interface Porting Progress
+================================
+
+* Stitch all the seperate BMP sets to alpha-channeled PNG.
+  * Common [6 left]
+  * Fallback [6 left]
+  * Jam_Effect [19 left]
+  * Loading_BG [1 left]
+  * Note_CGBM (No need)
+  * Note_Click [38 left]
+  * Note_Combo [19 left]
+  * Note_ComboNum [19 left]
+  * Playing_BG [6 left]
+* Write mega XML file.
+* Add theme config window into game.
