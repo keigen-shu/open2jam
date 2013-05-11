@@ -8,13 +8,13 @@ O2Jam OJS/OJT to BMP Converter
 Script by Keigen Shu
 
 Main Header [8 bytes]
-0x0 ~ 0x2 >> 01 00 (File type; some files have 00 00) *[1]
-0x3 ~ 0x4 >> 55 05 (Possibly bitmap bit size, ?1 R5 G5 B5)
+0x0 ~ 0x1 >> 01 00 (File type; some files have 00 00) *[1]
+0x2 ~ 0x3 >> 55 05 (Possibly bitmap bit size, ?1 R5 G5 B5)
 
-0x5 ~ 0x6 >> Image count
-0x7 ~ 0x8 >> Transparent mask color
-0x8 ..... >> First image header
-0x? ..... >> First image data
+0x4 ~ 0x5 >> Image count
+0x6 ~ 0x7 >> Transparent mask color
+0x7 ~ 0x? >> Image headers
+0x? ~ EOF >> Image data
 
 Image Header [20 bytes for each image]
 0x00 ~ 0x01 - origin X position (signed integer) *[2]
@@ -42,28 +42,28 @@ if len(sys.argv) < 2:
 for f in range(len(sys.argv)-1):
 
     if not os.path.exists(sys.argv[1+f]):
-        sys.exit('ERROR: File %s was not found!' % sys.argv[1])
+        sys.exit('ERROR: File %s was not found!' % sys.argv[1+f])
     else:
         print("File:",sys.argv[1+f])
 
     srcfile = open(sys.argv[1+f],"rb")
 
     fileHead = struct.unpack("4H", srcfile.read(8))
-    
+
     type = fileHead[0]
     cpal = fileHead[1]
     imgs = fileHead[2]
     mask = fileHead[3]
-    
+
     print("Header Type   :", hex(type))
     print("Color palette :", hex(cpal))
-    
+
     fpos = srcfile.tell()
-    
+
     mode_0 = False
-    
+
     for img in range(imgs):
-        imgHead = struct.unpack("<HHHHII",srcfile.read(16))
+        imgHead = struct.unpack("<hhHHII",srcfile.read(16))
         xpos = imgHead[0]
         ypos = imgHead[1]
         wdth = imgHead[2]
@@ -72,8 +72,8 @@ for f in range(len(sys.argv)-1):
         size = imgHead[5]
         unkn = srcfile.read(4)
 
-        fpos = srcfile.tell()   
-        
+        fpos = srcfile.tell()
+
         if img == 0 and type == 0 and addr != 0:
             print("[DEBUG] First address is not", hex(0), "but", hex(addr), end="")
             if addr == 8+imgs*20:
@@ -82,13 +82,12 @@ for f in range(len(sys.argv)-1):
                 mode_0 = True
             else:
                 print()
-        
-        print("Frame number", img+1, "of", imgs)    
-        print("X: ", xpos, "Y: ", ypos, "   W: ", wdth, "H: ", hght)
+
+        print("Frame", img+1, "of", imgs, "\tX: ", xpos, "Y: ", ypos, "   W: ", wdth, "H: ", hght)
         print("A: ", hex(addr), "(", hex(addr) if mode_0 else hex(addr + 8+imgs*20), ")", "S: ", size)
-        
+
         header = BMPtoolkit._header
-        
+
         header["width"] = wdth
         header["height"] = hght
         header["bitCount"] = 16
@@ -98,7 +97,7 @@ for f in range(len(sys.argv)-1):
             bin = srcfile.seek(addr + 8+imgs*20 + size)
         else:
             bin = srcfile.seek(addr + size)
-        
+
         pixels = b''
 
         for row in range(header['height']):
@@ -106,15 +105,15 @@ for f in range(len(sys.argv)-1):
             pixels += srcfile.read(2*header['width'])
             pixels += BMPtoolkit.row_padding(header['width'], header['bitCount'])
             srcfile.seek(srcfile.tell() - wdth * 2)
-        
+
         if imgs > 1:
             name = os.path.splitext(sys.argv[1+f])[0] + "__" + str(img) + ".bmp"
         else:
             name = os.path.splitext(sys.argv[1+f])[0] + ".bmp"
-        
+
         BMPtoolkit.write(header, pixels, name)
 
         srcfile.seek(fpos)
-    
+
     srcfile.close()
     print()
